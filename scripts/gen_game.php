@@ -5,7 +5,7 @@ $players = $santas = array(
   array('Csilla', 'cschwade@sympatico.ca'),
   array('Grampa', ''),
   array('Christel', ''),
-  array('Eve', 'eves_mailbox@yahoo.ca'),
+  array('Eva', 'eves_mailbox@yahoo.ca'),
   array('Hedi', ''),
   array('Christian', 'christian@leskowsky.net'),
   array('Carmen', 'carmenw_79@hotmail.com'),

@@ -32,12 +32,11 @@ Notes:
 2. Have fun!
 MSG;
 
-    echo "$santa_email\n";
-    // mail($to, $subject, $message);
+    mail($to, $subject, $message);
+    echo "Email sent to $to\n";
   } else {
 
     // let's see codes and santas
-
 
     $santa = str_pad($santa, 12);
     $santa_email = str_pad($santa_email, 33);

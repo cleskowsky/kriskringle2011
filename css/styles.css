@@ -1,8 +1,62 @@
 
-a {
+body {
+  color: #333;
+  background-color: #e5e5e5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+h1.left {
+  width: 200px;
+  line-height: 1.3em;
+  margin-right: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* index.php */
+
+label {
+  font-size: 1.4em;
   display: block;
+  margin-bottom: 3px;
+}
+
+#secret {
+  width: 496px;
+  border: 1px solid #ccc;
+  font-size: 1.1em;
+  padding: 5px 0 5px 2px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+/* player.php */
+
+.head-wrapper {
+  background-color: black;
   width: 280px;
-  heght: 280px;
+  height: 280px;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
 }
 
+.head-wrapper img {
+  vertical-align: bottom;
+}
