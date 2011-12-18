@@ -7,8 +7,6 @@ if (2 == count($argv)) {
   $send_email = true;
 }
 
-echo "santa email secret\n\n";
-
 foreach ($game as $secret => $player) {
   $santa = $player['santa'];
   $santa_email = $player['santa_email'];
