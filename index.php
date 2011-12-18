@@ -16,7 +16,7 @@
         </div>
       <?php endif ?>
 
-      <form action="/player.php">
+      <form action="player.php">
         <label for="access-code">Enter your secret code:</label>
         <input id="access-code" type="text" name="c">
         <input type="submit" value="Show Me My KrisKringle!">
